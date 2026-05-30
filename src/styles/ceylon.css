@@ -368,6 +368,81 @@ h2{animation:fadeUp .9s ease both}
   display:none!important
 }
 
+/* ===== MOBILE FIXES ===== */
+@media(max-width:640px){
+  /* Topbar: compress on small screens */
+  .topbar .wrap{height:auto;padding:8px 16px;flex-wrap:wrap;gap:8px}
+  .topbar .tcontact span{font-size:.75rem}
+  .topbar .tcontact svg{width:13px;height:13px}
+  .topbar .tsocial a{width:26px;height:26px}
+  .topbar .tsocial svg{width:12px;height:12px}
+
+  /* Nav brand: prevent wrap, shrink text */
+  .brand img{height:36px}
+  .brand .bt{font-size:1rem}
+  .brand .bs{display:none}
+  .nav .wrap{padding:0 16px}
+
+  /* Hero: reduce top padding to match slimmer nav */
+  .hero{padding-top:130px;margin-top:-72px}
+  .hero-inner{padding-bottom:90px}
+  .hero h1{font-size:clamp(2rem,9vw,2.8rem)}
+  .hero p.sub{font-size:1rem;margin-top:18px}
+  .hero .cta-row{flex-direction:column;align-items:center;gap:12px}
+  .hero .cta-row .btn{width:100%;justify-content:center;max-width:320px}
+  .hero .trust{font-size:.78rem;flex-wrap:wrap}
+
+  /* Pillars */
+  .pillars{margin-top:-50px}
+  .pcard{padding:28px 22px}
+
+  /* Sections */
+  .section{padding:70px 0}
+  .sec-head{margin-bottom:36px}
+  .sec-head h2{font-size:clamp(1.7rem,7vw,2.4rem)}
+
+  /* Offer */
+  .offer .wrap{gap:36px}
+  .offer-visual .float{left:-10px;width:200px;padding:18px 20px}
+  .offer-visual .badge{width:100px;height:100px;right:-10px;top:-10px}
+  .offer-visual .badge b{font-size:1.7rem}
+
+  /* Tabs */
+  .tabs{gap:8px}
+  .tab{font-size:.85rem;padding:10px 18px}
+  .tabpanel .tcontent{padding:28px 22px}
+
+  /* Stats */
+  .stat b{font-size:1.9rem}
+
+  /* Process */
+  .step .sn{width:88px;height:88px}
+  .step .sn .inner{width:64px;height:64px}
+
+  /* CTA section */
+  .cta{padding:64px 0}
+  .cta .phone{font-size:1.05rem}
+
+  /* Footer */
+  footer{padding:56px 0 0}
+  .fgrid{gap:28px}
+  .fbottom{flex-direction:column;align-items:flex-start;gap:10px}
+
+  /* WhatsApp button */
+  .wa{right:16px;bottom:16px}
+  .wa .wb{width:50px;height:50px}
+  .wa .wb svg{width:26px;height:26px}
+
+  /* Wrap padding */
+  .wrap{padding:0 18px}
+}
+
+@media(max-width:400px){
+  .brand .bt{font-size:.92rem}
+  .hero h1{font-size:2rem}
+  .pill{font-size:.78rem;padding:7px 14px}
+}
+
 @media (prefers-reduced-motion: reduce){
   *{animation:none!important;transition:none!important}
 }
