@@ -43,6 +43,7 @@ img{max-width:100%;display:block}
 .topbar .tsocial a:hover{background:var(--grad)}
 .topbar .tsocial svg{width:14px;height:14px;fill:#fff}
 .mob-ticker{display:none;align-items:center;gap:8px;transition:opacity .35s;opacity:1}
+@media(min-width:781px){.mob-ticker{display:none!important}}
 @media(max-width:780px){.topbar .tcontact span:not(.mob-ticker){display:none}.mob-ticker{display:flex}}
 
 /* ===== NAV ===== */
@@ -79,7 +80,7 @@ header.nav.solid{background:rgba(9,18,28,.92);backdrop-filter:blur(14px);padding
 .mobile{position:fixed;inset:0;background:var(--ink);z-index:100;padding:90px 28px 40px;transform:translateX(100%);transition:.4s;overflow-y:auto}
 .mobile.open{transform:translateX(0)}
 .mobile a{display:block;color:#dfe8f0;font-family:var(--display);font-weight:600;font-size:1.15rem;padding:16px 0;border-bottom:1px solid var(--line)}
-.mobile .btn{margin-top:24px;width:100%;justify-content:center}
+.mobile .btn{display:flex;margin-top:24px;width:100%;justify-content:center}
 .mclose{position:absolute;top:24px;right:24px;background:none;border:none;color:#fff;font-size:2rem;cursor:pointer}
 
 /* ===== HERO ===== */
