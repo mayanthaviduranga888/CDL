@@ -42,7 +42,8 @@ img{max-width:100%;display:block}
 .topbar .tsocial a{width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,.08);display:grid;place-items:center;transition:.25s}
 .topbar .tsocial a:hover{background:var(--grad)}
 .topbar .tsocial svg{width:14px;height:14px;fill:#fff}
-@media(max-width:780px){.topbar .tcontact span:nth-child(n+2){display:none}}
+.mob-ticker{display:none;align-items:center;gap:8px;transition:opacity .35s;opacity:1}
+@media(max-width:780px){.topbar .tcontact span:not(.mob-ticker){display:none}.mob-ticker{display:flex}}
 
 /* ===== NAV ===== */
 header.nav{position:sticky;top:0;z-index:90;background:rgba(10,20,32,.0);transition:.35s;padding:18px 0}
@@ -373,6 +374,8 @@ h2{animation:fadeUp .9s ease both}
   /* Topbar: compress on small screens */
   .topbar .wrap{height:auto;padding:8px 16px;flex-wrap:wrap;gap:8px}
   .topbar .tcontact span{font-size:.75rem}
+  .mob-ticker{font-size:.75rem}
+  .mob-ticker svg{width:13px;height:13px;stroke:var(--green-bright)}
   .topbar .tcontact svg{width:13px;height:13px}
   .topbar .tsocial a{width:26px;height:26px}
   .topbar .tsocial svg{width:12px;height:12px}
