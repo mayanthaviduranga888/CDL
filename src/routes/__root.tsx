@@ -91,6 +91,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: appCss,
       },
+      {
+        rel: "icon",
+        href: "/images/Ceylon Digital Labs FAV.jpg",
+        type: "image/jpeg",
+      },
     ],
   }),
   shellComponent: RootShell,
