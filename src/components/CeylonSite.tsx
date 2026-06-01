@@ -430,27 +430,27 @@ export default function CeylonSite() {
           </div>
           <div className="pgrid">
             <div className="proj rv">
-              <div className="pbg" style={{'backgroundImage':'url(/images/Screenshot%202026-05-30%20at%2014.28.11.png)','backgroundSize':'cover','backgroundPosition':'center'}}><div className="pg"></div><div className="ov"></div></div>
+              <div className="pbg" style={{'backgroundImage':'url(/images/Screenshot%202026-05-30%20at%2014.28.11.png)','backgroundSize':'cover','backgroundPosition':'center'}}></div>
               <div className="pcontent"><div className="ptag">News Media Platform</div><h3>Commonwealth Union</h3><p>The Commonwealth Union is a NGO and a global media portal bringing together the 2.6 billion people and 150 million businesses.</p></div>
             </div>
             <div className="proj rv">
-              <div className="pbg" style={{'backgroundImage':'url(/images/Screenshot%202026-05-30%20at%2014.29.04.png)','backgroundSize':'cover','backgroundPosition':'center'}}><div className="pg"></div><div className="ov"></div></div>
+              <div className="pbg" style={{'backgroundImage':'url(/images/Screenshot%202026-05-30%20at%2014.29.04.png)','backgroundSize':'cover','backgroundPosition':'center'}}></div>
               <div className="pcontent"><div className="ptag">MEME Coin</div><h3>CWU Coin</h3><p>Connecting people, businesses, and opportunity across Commonwealth markets. The CWU token puts a global network of 2.6 billion people on-chain.</p></div>
             </div>
             <div className="proj rv">
-              <div className="pbg" style={{'backgroundImage':'url(/images/Screenshot%202026-05-30%20at%2014.38.20.png)','backgroundSize':'cover','backgroundPosition':'center'}}><div className="pg"></div><div className="ov"></div></div>
+              <div className="pbg" style={{'backgroundImage':'url(/images/Screenshot%202026-06-01%20at%2008.35.11.png)','backgroundSize':'cover','backgroundPosition':'center'}}></div>
               <div className="pcontent"><div className="ptag">Job Board</div><h3>Jobster.lk</h3><p>Hire smarter and faster with confidence using AI-powered tools that streamline every step of the hiring process – from sourcing to onboarding.</p></div>
             </div>
             <div className="proj rv">
-              <div className="pbg" style={{'backgroundImage':'url(/images/Screenshot%202026-05-30%20at%2014.37.47.png)','backgroundSize':'cover','backgroundPosition':'center'}}><div className="pg"></div><div className="ov"></div></div>
+              <div className="pbg" style={{'backgroundImage':'url(/images/Screenshot%202026-05-30%20at%2014.37.47.png)','backgroundSize':'cover','backgroundPosition':'center'}}></div>
               <div className="pcontent"><div className="ptag">Travel Agency</div><h3>Sita Rama Travels & Tours</h3><p>Sita-Rama Travels & Tours,  offer a unique experience by bringing the Ramayana epic to life by covering nine key sites along Sri Lanka's Ramayana Trail.</p></div>
             </div>
             <div className="proj rv">
-              <div className="pbg" style={{'backgroundImage':'url(/images/Screenshot%202026-05-30%20at%2014.34.51.png)','backgroundSize':'cover','backgroundPosition':'center'}}><div className="pg"></div><div className="ov"></div></div>
+              <div className="pbg" style={{'backgroundImage':'url(/images/Screenshot%202026-05-30%20at%2014.34.51.png)','backgroundSize':'cover','backgroundPosition':'center'}}></div>
               <div className="pcontent"><div className="ptag">Villa in Galle</div><h3>Nil Ralla</h3><p>Nil Ralla in Talpe is a direct beachfront villa with stunning sea views, unwind in the lush garden and terrace.</p></div>
             </div>
             <div className="proj rv">
-              <div className="pbg" style={{'backgroundImage':'url(/images/Screenshot%202026-05-30%20at%2014.28.26.png)','backgroundSize':'cover','backgroundPosition':'center'}}><div className="pg"></div><div className="ov"></div></div>
+              <div className="pbg" style={{'backgroundImage':'url(/images/Screenshot%202026-05-30%20at%2014.28.26.png)','backgroundSize':'cover','backgroundPosition':'center'}}></div>
               <div className="pcontent"><div className="ptag">Construction Company</div><h3>Machine Center</h3><p>Machine Center is a company involved in leasing earth moving machinery and construction works, established in 1997.</p></div>
             </div>
           </div>
